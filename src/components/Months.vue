@@ -110,6 +110,18 @@ export default {
   display: flex;
 }
 
+.month {
+  border-bottom: 1px solid #ecedee;
+  border-top: 1px solid #ecedee;
+  border-right: 1px solid #ecedee;
+  padding: 5px;
+  padding-left: 15px;
+  color: #0a97d5;
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
 .month-container {
   display: flex;
   justify-content: space-between;
@@ -138,18 +150,6 @@ export default {
   position: absolute;
   top: 0;
   bottom: 0;
-}
-
-.month {
-  border-bottom: 1px solid #ecedee;
-  border-top: 1px solid #ecedee;
-  border-right: 1px solid #ecedee;
-  padding: 5px;
-  padding-left: 15px;
-  color: #0a97d5;
-  display: inline-block;
-  width: 100px;
-  text-align: left;
 }
 
 .month:first-child,

@@ -19,7 +19,6 @@ export default {
 #app {
   font-family: "Inter", sans-serif;
   font-family: "Lato", sans-serif;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>
