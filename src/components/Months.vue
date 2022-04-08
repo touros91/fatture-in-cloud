@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div v-if="selected">
+    <div class="details" v-if="selected">
       <h1>{{ selected }}</h1>
       <p>Documenti disponibili per questo mese: {{ details.documenti }}</p>
 
@@ -145,9 +145,11 @@ export default {
   border-top: 1px solid #ecedee;
   border-right: 1px solid #ecedee;
   padding: 5px;
+  padding-left: 15px;
   color: #0a97d5;
   display: inline-block;
   width: 100px;
+  text-align: left;
 }
 
 .month:first-child,
@@ -159,10 +161,15 @@ export default {
   padding: 5px;
   z-index: 1;
   color: #6f7e86;
+  padding-left: 15px;
 }
 
 .amount {
   color: #00875a;
+}
+
+.details {
+  text-align: center;
 }
 
 h1 {
