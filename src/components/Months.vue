@@ -97,7 +97,7 @@ export default {
   border-bottom: 3px solid #7abdd9;
 }
 #selectable .ui-selected :not(span) {
-  border-bottom: 4px solid #0a97d5;
+  border-bottom: 3px solid #0a97d5;
 }
 
 .container {
